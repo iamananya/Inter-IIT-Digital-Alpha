@@ -110,7 +110,6 @@ class ExtractItems:
         """
         Clean the text of various unnecessary blocks of text
         Substitute various special characters
-
         :param text: Raw text string
         :return: String containing normalized, clean text
         """
@@ -161,7 +160,6 @@ class ExtractItems:
     def calculate_table_character_percentages(table_text):
         """
         Calculate character type percentages contained in the table text
-
         :param table_text: The table text
         :return non_blank_digits_percentage: Percentage of digit characters
         :return spaces_percentage: Percentage of space characters
@@ -187,7 +185,6 @@ class ExtractItems:
         """
         Remove HTML tables that contain numerical data
         Note that there are many corner-cases in the tables that have text data instead of numerical
-
         :param doc_10k: The 10-K html
         :param is_html: Whether the document contains html code or just plain text
         :return: doc_10k: The 10-K html without numerical tables
@@ -235,7 +232,6 @@ class ExtractItems:
     def parse_item(self, text, item_index, next_item_list, positions):
         """
         Parses Item N for a 10-K text
-
         :param text: The 10-K text
         :param item_index: Number of the requested Item/Section of the 10-K text
         :param next_item_list: List of possible next 10-K item sections
@@ -292,7 +288,6 @@ class ExtractItems:
     def get_item_section(possible_sections_list, text, positions):
         """
         Throughout a list of all the possible item sections, it returns the biggest one, which (probably) is the correct one.
-
         :param possible_sections_list: List containing all the possible sections betweewn Item X and Item Y
         :param text: The whole text
         :param positions: List of the end positions of previous item sections
@@ -335,7 +330,6 @@ class ExtractItems:
         Returns the text section starting through a given item. This is useful in cases where Item 15 is the last item
         and there is no Item 16 to indicate its ending. Also, it is useful in cases like EDGAR's old .txt files
         (mostly before 2005), where there there is no Item 15; thus, ITEM 14 is the last one there.
-
         :param item_index: The index of the item/section in the 10-K ('14' or '15')
         :param text: The whole 10-K text
         :param positions: List of the end positions of previous item sections
@@ -355,7 +349,6 @@ class ExtractItems:
     def extract_items(self, filing_metadata):
         """
         Extracts all items/sections for a 10-K file and writes it to a CIK_10K_YEAR.json file (eg. 1384400_10K_2017.json)
-
         :param filing_metadata: a pandas series containing all filings metadata
         """
 

@@ -1,0 +1,16 @@
+03-02-2022 13:09 - ExtractItems - INFO - Starting extraction...
+
+03-02-2022 13:09 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/1418091_8K_2021_0001193125-21-048928.htm
+03-02-2022 13:09 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/1418091_8K_2021_0001193125-21-016213.htm
+03-02-2022 13:09 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/1418091_8K_2021_0001193125-21-055879.htm
+03-02-2022 13:09 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/1418091_8K_2021_0001193125-21-177300.htm
+03-02-2022 13:09 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/1418091_8K_2021_0001193125-21-186765.htm
+03-02-2022 13:09 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/1418091_8K_2021_0001193125-21-203269.htm
+03-02-2022 13:09 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/1418091_8K_2021_0001193125-21-276828.htm
+03-02-2022 13:09 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/1418091_8K_2021_0001193125-21-293323.htm
+03-02-2022 13:09 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/1418091_8K_2021_0001193125-21-342255.htm
+03-02-2022 13:09 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/1418091_8K_2021_0001193125-21-347694.htm
+03-02-2022 13:09 - ExtractItems - INFO - 
+Item extraction is completed successfully.
+03-02-2022 13:09 - ExtractItems - INFO - 16 files were processed.
+03-02-2022 13:09 - ExtractItems - INFO - Extracted filings are saved to: /home/ananya/Documents/aphagrep/edgar-crawler/datasets/EXTRACTED_FILINGS

@@ -81,6 +81,10 @@ def main():
 				tsv_filenames.append(filepath)
 
 	# Get the indices that are specific to your needs
+	# with open('CIK.csv', 'r') as f:
+	# 	cik_tickers=f.read()
+		# print(first_line)
+   		
 	df = get_specific_indices(
 		tsv_filenames=tsv_filenames,
 		filing_types=config['filing_types'],

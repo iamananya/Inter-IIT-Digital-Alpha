@@ -1,0 +1,20 @@
+03-02-2022 02:04 - edgar_crawler - INFO - Saving log to /home/ananya/Documents/aphagrep/edgar-crawler/logs
+
+03-02-2022 02:04 - edgar_crawler - INFO - Downloading EDGAR Index files
+03-02-2022 02:04 - edgar_crawler - INFO - Skipping 2019_QTR1.tsv
+03-02-2022 02:04 - edgar_crawler - INFO - Skipping 2019_QTR2.tsv
+03-02-2022 02:04 - edgar_crawler - INFO - Skipping 2019_QTR3.tsv
+03-02-2022 02:04 - edgar_crawler - INFO - Skipping 2019_QTR4.tsv
+03-02-2022 02:04 - edgar_crawler - INFO - Skipping 2020_QTR1.tsv
+03-02-2022 02:04 - edgar_crawler - INFO - Skipping 2020_QTR2.tsv
+03-02-2022 02:04 - edgar_crawler - INFO - Skipping 2020_QTR3.tsv
+03-02-2022 02:04 - edgar_crawler - INFO - Skipping 2020_QTR4.tsv
+03-02-2022 02:04 - edgar_crawler - INFO - Skipping 2021_QTR1.tsv
+03-02-2022 02:04 - edgar_crawler - INFO - Skipping 2021_QTR2.tsv
+03-02-2022 02:04 - edgar_crawler - INFO - Skipping 2021_QTR3.tsv
+03-02-2022 02:04 - edgar_crawler - INFO - Skipping 2021_QTR4.tsv
+03-02-2022 02:04 - edgar_crawler - INFO - 
+Downloading 3 filings...
+
+03-02-2022 02:04 - edgar_crawler - INFO - 
+Final dataframe exported to /home/ananya/Documents/aphagrep/edgar-crawler/datasets/FILINGS_METADATA.csv
