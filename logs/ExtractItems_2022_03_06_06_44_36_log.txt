@@ -1,0 +1,6 @@
+03-06-2022 12:14 - ExtractItems - INFO - Starting extraction...
+
+03-06-2022 12:16 - ExtractItems - INFO - 
+Item extraction is completed successfully.
+03-06-2022 12:16 - ExtractItems - INFO - 113 files were processed.
+03-06-2022 12:16 - ExtractItems - INFO - Extracted filings are saved to: /home/ananya/Documents/aphagrep/edgar-crawler/datasets/10_Q

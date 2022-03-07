@@ -7,7 +7,7 @@ import re
 import requests
 import tempfile
 import zipfile
-
+import csv
 import logging
 
 from bs4 import BeautifulSoup
@@ -79,17 +79,20 @@ def main():
 
 			if os.path.isfile(filepath):
 				tsv_filenames.append(filepath)
-
-	# Get the indices that are specific to your needs
-	# with open('CIK.csv', 'r') as f:
-	# 	cik_tickers=f.read()
-		# print(first_line)
-   		
-	df = get_specific_indices(
-		tsv_filenames=tsv_filenames,
-		filing_types=config['filing_types'],
-		cik_tickers=config['cik_tickers'],
-		user_agent=config['user_agent']
+	# sad
+	file = open('CIK.csv')
+	print(file)
+	csvreader = csv.reader(file)
+	for row in csvreader:
+		cik_tickers=row
+		
+		# Get the indices that are specific to your needs
+		df = get_specific_indices(
+			tsv_filenames=tsv_filenames,
+			filing_types=config['filing_types'],
+			cik_tickers=cik_tickers,
+		
+			user_agent=config['user_agent']
 	)
 
 	old_df = None
@@ -485,7 +488,7 @@ def crawl(
 			if link_to_download is not None:
 				filing_type = re.sub(r"[\-/\\]", '', filing_type)
 				accession_num = series['complete_text_file_link'].split(os.sep)[-1].split('.')[0]
-				filename = f"{str(series['CIK'])}_{filing_type}_{period_of_report[:4]}_{accession_num}.{file_extension}"
+				filename = f"{filing_type}_{str(series['CIK'])}_{period_of_report.replace('-','')}_{accession_num}.{file_extension}"
 
 				# Download the file
 				success = download(

@@ -1,0 +1,33 @@
+03-06-2022 21:45 - edgar_crawler - INFO - Saving log to /home/ananya/Documents/aphagrep/edgar-crawler/logs
+
+03-06-2022 21:45 - edgar_crawler - INFO - Downloading EDGAR Index files
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2016_QTR1.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2016_QTR2.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2016_QTR3.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2016_QTR4.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2017_QTR1.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2017_QTR2.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2017_QTR3.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2017_QTR4.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2018_QTR1.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2018_QTR2.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2018_QTR3.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2018_QTR4.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2019_QTR1.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2019_QTR2.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2019_QTR3.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2019_QTR4.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2020_QTR1.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2020_QTR2.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2020_QTR3.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2020_QTR4.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2021_QTR1.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2021_QTR2.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2021_QTR3.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2021_QTR4.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - Skipping 2022_QTR1.tsv
+03-06-2022 21:45 - edgar_crawler - INFO - 
+Downloading 6 filings...
+
+03-06-2022 21:45 - edgar_crawler - INFO - 
+Final dataframe exported to /home/ananya/Documents/aphagrep/edgar-crawler/datasets/FILINGS_METADATA.csv

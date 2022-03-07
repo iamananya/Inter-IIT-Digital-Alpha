@@ -1,0 +1,23 @@
+03-06-2022 04:12 - ExtractItems - INFO - Starting extraction...
+
+03-06-2022 04:12 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1023731_20160722_0001136261-16-000565.htm
+03-06-2022 04:12 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1023731_20171019_0001136261-17-000235.htm
+03-06-2022 04:12 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1023731_20171113_0001136261-17-000276.htm
+03-06-2022 04:12 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1023731_20160810_0001136261-17-000189.htm
+03-06-2022 04:12 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1023731_20181005_0001136261-18-000266.htm
+03-06-2022 04:12 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1023731_20180807_0001136261-18-000217.htm
+03-06-2022 04:12 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1023731_20181023_0001136261-18-000285.htm
+03-06-2022 04:12 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1023731_20190205_0001023731-19-000011.htm
+03-06-2022 04:12 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1023731_20190703_0001023731-19-000065.htm
+03-06-2022 04:12 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1023731_20190801_0001023731-19-000090.htm
+03-06-2022 04:12 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1023731_20200713_0001023731-20-000079.htm
+03-06-2022 04:12 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1023731_20201022_0001023731-20-000194.htm
+03-06-2022 04:12 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1023731_20200810_0001023731-20-000123.htm
+03-06-2022 04:12 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1023731_20210805_0001023731-21-000186.htm
+03-06-2022 04:12 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1023731_20210805_0001023731-21-000187.htm
+03-06-2022 04:12 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1023731_20211213_0001023731-21-000270.htm
+03-06-2022 04:12 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1023731_20220203_0001023731-22-000036.htm
+03-06-2022 04:12 - ExtractItems - INFO - 
+Item extraction is completed successfully.
+03-06-2022 04:12 - ExtractItems - INFO - 56 files were processed.
+03-06-2022 04:12 - ExtractItems - INFO - Extracted filings are saved to: /home/ananya/Documents/aphagrep/edgar-crawler/datasets/8_K

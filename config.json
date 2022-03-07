@@ -1,11 +1,10 @@
 {
 	"edgar_crawler": {
-		"start_year": 1994,
+		"start_year": 2016,
 		"end_year": 2022,
 		"quarters": [1, 2, 3, 4],
-		"filing_types": ["10-K"],
-		"cik_tickers": ["1118974"],
-		"user_agent": "SEC EDGAR",
+		"filing_types": ["8-K"],
+		"user_agent": "Mozilla",
 		"raw_filings_folder": "RAW_FILINGS",
 		"indices_folder": "INDICES",
 		"filings_metadata_file": "FILINGS_METADATA.csv",
@@ -13,7 +12,7 @@
 	},
 	"extract_items_8k": {
 		"raw_filings_folder": "RAW_FILINGS",
-		"extracted_filings_folder": "EXTRACTED_FILINGS",
+		"extracted_filings_folder": "8_K",
 		"filings_metadata_file": "FILINGS_METADATA.csv",
 		"items_to_extract": [
 			"1.01","1.02","1.03","2.01","2.02","2.03","2.04","2.05",
@@ -25,7 +24,7 @@
 	},
 	"extract_items_10q": {
 		"raw_filings_folder": "RAW_FILINGS",
-		"extracted_filings_folder": "EXTRACTED_FILINGS",
+		"extracted_filings_folder": "10_Q",
 		"filings_metadata_file": "FILINGS_METADATA.csv",
 		"items_to_extract": [
 			"1","2","3","4","1","1A","2","3","4","5","6"
@@ -35,7 +34,7 @@
 	},
 	"extract_items": {
 		"raw_filings_folder": "RAW_FILINGS",
-		"extracted_filings_folder": "EXTRACTED_FILINGS",
+		"extracted_filings_folder": "10_K",
 		"filings_metadata_file": "FILINGS_METADATA.csv",
 		"items_to_extract": [
 			"1", "1A", "1B", "2", "3", "4", "5", "6", "7", "7A",
