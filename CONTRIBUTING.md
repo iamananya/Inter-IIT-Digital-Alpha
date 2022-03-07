@@ -25,3 +25,4 @@
 
 # Note 
 - Edit the CIK.csv file with the tickers which we need to extract . Running all the tickers together will keep you waiting for hours XD
+- Update the sheet with pink for whichever ticker you are extracting , mention name alongside [sheet](https://docs.google.com/spreadsheets/d/121OOekfwcb_zC_pX6KzJTyXM4nrfYTPV02AZ9GC1fOQ/edit?usp=sharing)
