@@ -1,8 +1,0 @@
-03-06-2022 04:00 - ExtractItems - INFO - Starting extraction...
-
-03-06-2022 04:00 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1556753_20210301_0001493152-21-005286.htm
-03-06-2022 04:00 - ExtractItems - INFO - Could not extract any item for /home/ananya/Documents/aphagrep/edgar-crawler/datasets/RAW_FILINGS/8K_1556753_20210518_0001493152-21-014744.htm
-03-06-2022 04:00 - ExtractItems - INFO - 
-Item extraction is completed successfully.
-03-06-2022 04:00 - ExtractItems - INFO - 2 files were processed.
-03-06-2022 04:00 - ExtractItems - INFO - Extracted filings are saved to: /home/ananya/Documents/aphagrep/edgar-crawler/datasets/8_K

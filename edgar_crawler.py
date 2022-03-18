@@ -79,7 +79,7 @@ def main():
 
 			if os.path.isfile(filepath):
 				tsv_filenames.append(filepath)
-	# sad
+	# importing cik numbers from csv file 
 	file = open('CIK.csv')
 	print(file)
 	csvreader = csv.reader(file)
@@ -91,7 +91,6 @@ def main():
 			tsv_filenames=tsv_filenames,
 			filing_types=config['filing_types'],
 			cik_tickers=cik_tickers,
-		
 			user_agent=config['user_agent']
 	)
 
@@ -212,7 +211,7 @@ def get_specific_indices(
 	"""
 	Loops through all the indexes and keeps only the rows/Series for the specific filing types
 	:param tsv_filenames: the indices filenames
-	:param filing_types: list of filing types to download. e.g. ['10-K', '10-K405', '10-KT']
+	:param filing_types: list of filing types to download. e.g. ['10-K']
 	:param user_agent: the User-agent that will be declared to SEC EDGAR
 	:param cik_tickers: list of CIKs or Tickers
 	:return: a final dataframe which has Series only for the specific indices
@@ -373,8 +372,7 @@ def crawl(
 	except (HTMLParseError, Exception) as e:
 		pass
 
-	# https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001000228
-	# https://data.sec.gov/submissions/CIK0001000228.json
+
 	with open(os.path.join(DATASET_DIR, 'companies_info.json')) as f:
 		company_info_dict = json.load(fp=f)
 
@@ -552,12 +550,6 @@ def download(
 
 	with open(filepath, 'wb') as f:
 		f.write(request.content)
-
-	# LOGGER.info(f'Successfully downloaded filing: {filename} - {url}')
-
-	# Check that MD5 hash is correct
-	# if hashlib.md5(open(filepath, 'rb').read()).hexdigest() != headers._headers[1][1].strip('"'):
-	# 	LOGGER.info(f'Wrong MD5 hash for file: {abs_filename} - {url}')
 
 	return True
 
