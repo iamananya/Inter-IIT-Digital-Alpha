@@ -1,5 +1,0 @@
-03-05-2022 15:39 - edgar_crawler - INFO - Saving log to /home/ananya/Documents/aphagrep/edgar-crawler/logs
-
-03-05-2022 15:39 - edgar_crawler - INFO - Downloading EDGAR Index files
-03-05-2022 15:39 - edgar_crawler - INFO - 1994_QTR1.tsv downloaded
-03-05-2022 15:39 - edgar_crawler - INFO - 1994_QTR2.tsv downloaded
