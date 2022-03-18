@@ -1,4 +1,4 @@
-This repository has been inspired from the [EDGAR CRAWLER](https://github.com/nlpaueb/edgar-crawler) repository for generating 10-K filings. The repository has been modified to generate filings from 8-K and 10-Q as well.
+This repository has been inspired from the [EDGAR CRAWLER](https://github.com/nlpaueb/edgar-crawler) repository for generating 10-K filings. The repository has been modified to generate filings from 8-K and 10-Q forms as well.
 
 ## FILINGS SCRAPER
 
