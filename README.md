@@ -12,7 +12,7 @@ This repository has been inspired from the [EDGAR CRAWLER](https://github.com/nl
 
  
 ## General Information about the files 
-- CIK Numbers are avaiable in `CIK.csv`
+- CIK Numbers are available in `CIK.csv`
 - `edgar_crawler.py` to generate all the filings for the given cik numbers and duration
 - `extract_items_8k.py` to extract all the 8k forms 
 - `extract_items_10k.py` to extract all the 10k forms 
