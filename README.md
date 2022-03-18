@@ -6,7 +6,7 @@ This repository has been inspired from the [EDGAR CRAWLER](https://github.com/nl
 - Extract and clean specific text sections, such as Risk Factors, MD&A, and others, through the `extract_items.py` module.
 
 
-## Instalation
+## Installation
 - Set up a virtual enviroment using `pipenv shell` or `pythom3 -m venv`
 - Download all dependencies using `pip install -r requirements.txt`
 
