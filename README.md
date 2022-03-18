@@ -17,9 +17,31 @@ The purpose of EDGAR-CRAWLER is to speed up research and experiments that rely o
 - [Contributing](#contributing)
 - [License](#license)
 
-## Install
-- Before starting, ideally, it's recommended to switch to a virtual environment first via `conda`, using Python 3.6+.
-- Install dependencies via `pip install -r requirements.txt`
+## Steps to extract forms from the tickers
+
+# Info 
+- CIK Numbers are avaiable in CIK.csv
+- edgar_crawler.py to generate all the filings for the given cik numbers and duration
+- extract_items_8k.py to extract all the 8k forms 
+- extract_items_10k.py to extract all the 10k forms 
+- extract_items_10q.py to extract all the 10q forms 
+- INDICES contains files for the specified year (Hence on running the script those files are skipped. Don't get mad XD)
+
+# Procedure
+
+1. Edit the `config.json` file with `"filing_types": []` specify the form type as `8-K or 10-K or 10-Q` depending on the type of form we wish to extract
+
+2. Run `edgar_crawler.py` . This will create a csv named `FILLINGS_METADATA.csv` alongwith a folder named `RAW_FILLINGS`
+
+3. Run the corresponding script file in   `extract_items_{type mentioned in the config.json file}.py`
+
+4. Creates a folder in the datasets directory corresponding to the form type 
+
+
+
+
+
+
 
 ## Usage
 - Before running any script, you can edit the `config.json` file.
@@ -49,34 +71,4 @@ The purpose of EDGAR-CRAWLER is to speed up research and experiments that rely o
 - To clean and extract specific item sections from already-downloaded 10-K documents, run `python extract_items.py`.
   - Reminder: We currently support the extraction of 10-K documents. 
 
-## Citation
-If this work helps or inspires you in any way, please consider citing the relevant paper published at the [3rd Economics and Natural Language Processing (ECONLP) workshop](https://lt3.ugent.be/econlp/) at EMNLP 2021 (Punta Cana, Dominican Republic):
-```
-@inproceedings{loukas-etal-2021-edgar,
-    title = "{EDGAR}-{CORPUS}: Billions of Tokens Make The World Go Round",
-    author = "Loukas, Lefteris  and
-      Fergadiotis, Manos  and
-      Androutsopoulos, Ion  and
-      Malakasiotis, Prodromos",
-    booktitle = "Proceedings of the Third Workshop on Economics and Natural Language Processing",
-    month = nov,
-    year = "2021",
-    address = "Punta Cana, Dominican Republic",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2021.econlp-1.2",
-    pages = "13--18",
-}
-```
-Read the paper here: [https://arxiv.org/abs/2109.14394](https://arxiv.org/abs/2109.14394)
 
-## Accompanying Resources
-- [corpus] EDGAR-CORPUS: A corpus for financial NLP research, built from SEC's EDGAR - [https://zenodo.org/record/5528490](https://zenodo.org/record/5528490)
-- [embeddings] EDGAR-W2V: Word2vec Embeddings trained on EDGAR-CORPUS - [https://zenodo.org/record/5524358](https://zenodo.org/record/5524358)
-
-## Contributing
-PRs and contributions are accepted.
- 
-Please use the [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow).
-
-## License
-Please see the [GNU General Public License v3.0](https://github.com/nlpaueb/edgar-crawler/blob/main/LICENSE)
